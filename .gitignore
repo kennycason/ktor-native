@@ -1,20 +1,67 @@
-*.class
-*.DS_store
-.classpath
-.project
-.metadata
-.settings
-.settings/*
-bin
-/target
-*/target/*
-*.log
-.idea/*
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
 *.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+buildSrc/.gradle/
+buildSrc/build/
+
+# Kotlin/Native Metadata
+.kotlin/
+*.klib
+*.kexe
+*.bin
+*.def
+*.knm
+
+# Generated Files
+*.class
+*.jar
+*.log
+*.war
+*.ear
+
+# Tests and Coverage
+test-results/
+out/
+reports/
+coverage/
+jacoco/
+
+# IntelliJ
+*.swp
+*.class
+*.log
+*.xml
+*.lock
+
+# File Cache
+.cache
+node_modules/
+
+# Target & Binary Files
 core/build/*
 core/out/*
 classes/
-build/
-.gradle/*
-.kotlin/metadata/kotlinCInteropLibraries/
+bin/
+target/
+*/target/*
+*.o
+*.so
+*.dylib
+*.a
+*.dll
+*.exe
+dist/
 
+# Kotlin Native Specific
+.kotlin/metadata/kotlinCInteropLibraries/
+.kotlin/metadata/kotlinTransformedMetadataLibraries/
