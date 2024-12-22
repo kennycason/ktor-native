@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlinxSerialization)
 }
 
-group = "klip.core"
+group = "ktor-native"
 version = "1.0.0"
 
 val ktorVersion = "3.0.3"
